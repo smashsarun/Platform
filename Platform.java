@@ -16,11 +16,17 @@ public class Platform {
         System.out.println("New value of A "+ newA +", New value of B "+ newB);
         
         //3.
-        byte count = (byte)0;
-        byte byteI = (byte)149;
-        for(byte i = 1; count != byteI;){   
-            count = (byte)((byte)count+i);
-            System.out.println(count);
+        
+        //แก้ให้ไม่ Infinite loop
+        //byte count = (byte)0;
+        //byte byteI = (byte)149;
+        //for(byte i = 1; count != byteI;){   
+        //    count = (byte)((byte)count+i);
+        //    System.out.println(count);
+        // }
+        
+        for (byte i = 0; i <= 149; i++) { //เป็น Infinit loop 
+            System.out.println(i);
         }
     }
     
