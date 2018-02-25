@@ -1,0 +1,11 @@
+DECI A, d
+DECI B,d
+LOADA A,d
+ADDA B,d
+STOREA sum,d
+DECO sum,d
+STOP
+A:.WORD h#1
+B:.WORD h#2
+sum:.WORD h#3
+.END
